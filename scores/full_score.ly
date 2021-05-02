@@ -4,8 +4,12 @@
 
 \paper {
   % #(set-paper-size "a4landscape")
+  % top-margin = 1\cm
+  % bottom-margin = .5\cm
+  % outer-margin = 2\cm
+  % inner-margin = 1.5\cm
   % indent = 1\cm
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+  % #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
@@ -20,13 +24,13 @@
     \tocSection "1" "Kyrie"
     \score {
       <<
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
             \partCombine \KyrieClarinoI \KyrieClarinoII
           >>
         >>
-        \new Staff {
+        \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
           \KyrieTimpani
         }
@@ -84,7 +88,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }
