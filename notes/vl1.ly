@@ -89,6 +89,82 @@ KyrieViolinoI = {
   }
 }
 
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    <e' c'>4\f q \appoggiatura d8 c32 h c16 c,8 r c'
+    \appoggiatura e d32 cis d16 g8 r d \appoggiatura f e32 d e16 c'8 r e,
+    \appoggiatura g f32 e f16 d'8 \appoggiatura f, e32 d e16 c'8 \appoggiatura e, d32 cis d16 c'8 g, h'
+    c,16 c'32 h c16 g c g e c <g d' h'>4 r8 g'
+    \appoggiatura a g32^\critnote fis g16 g,8 r g' \appoggiatura a \kneeBeam g32^\critnote fis g16 a,,8 \appoggiatura g'' fis32 e fis16 d,8 %5
+    g, g'' \appoggiatura a g32^\critnote fis g16 g,8 \appoggiatura f' e32^\critnote d e16 c,8 r e'
+    \appoggiatura f e32 d e16 c,8 r c'' \appoggiatura d c32^\critnote h c16 e,8 r c'
+    \appoggiatura d \kneeBeam c32^\critnote h c16 d,,8 \appoggiatura c'' \kneeBeam h32^\critnote a h16 g,,8 \appoggiatura d' c32 h c16 c'8 r g'
+    \appoggiatura h a32^\critnote g a16 f,8 r a' \appoggiatura a g32^\critnote fis g16 g,8 r c'
+    \appoggiatura e, d32^\critnote cis d16 c'8 g, h' c,16 c'32 h c16 g c g e c %10
+    <g d' h'>4 r8 g' e16 c'32 h c16 c, d8 h'
+    c,4 r r2
+    r8 c' \appoggiatura e, d32^\critnote c d16 h'8 c,4 r
+    R1*3 %16
+    r2 r8 g'\fE \appoggiatura a g32^\critnote fis g16 g,8
+    r \appoggiatura a' g32^\critnote fis g16 a,8 fis' g,16 g'32 fis g16 d g d h g
+    <d a' fis'>4 r8 d' h16 g'32 fis g16 g, a8 fis'
+    g,4 r r2 %20
+    r r16 g32 fis g16 d \kneeBeam g, h'' a g
+    fis d32 cis d16 a \kneeBeam d, c'' h a h8 g, r4
+    R1*12 %34
+    r16 f'32\fE e f16 c f, a' g f e c32 h c16 g \kneeBeam c, b'' a g %35
+    a4 r r2
+    R1*2
+    a,16\fE a'32 gis a16 e a e c a <e h' gis'>4 r8 e'
+    c16 a'32 gis a16 a, h8 gis' a, e' \appoggiatura f e32 d e16 e,8 %40
+    r f' \appoggiatura g f32 e f16 f,8 r f' \appoggiatura g f32 e f16 g,8
+    e' c, \appoggiatura f' e32 d e16 c' e, e8\trill d \appoggiatura f e32 d e16 c'8
+    d, c' g, h' c,16 c'32 h c16 g c g e c
+    <g d' h'>4 r8 g' e16 c'32 h c16 c, d8 h'
+    c,4 g\p \appoggiatura g8 es'4 d8 c %45
+    h! d d d r es es es
+    d4 r \appoggiatura a'8 g32\f fis g16 g,8 r g'
+    \appoggiatura f es32 d es16 es,8 r es' \appoggiatura d c32^\critnote h! c16 c,8 r \once \tieDashed c'~
+    c16 es es es es es es es es es es es d d d d
+    c4 r r2 %50
+    r8 f\p es d \appoggiatura d4 c2
+    h!16 g32\f fis g16 d g d h! d g,4 r
+    R1*5 %57
+    r4 b'\p b8 as g f
+    g b es es es4\trill d
+    \appoggiatura as'8 g32\f^\critnote fis g16 g,8 r g' \appoggiatura as g32^\critnote f g16 g,8 r g' %60
+    \appoggiatura b as32^\critnote g as16 f,8 r as' \appoggiatura as g32^\critnote f g16 c,8 d, h'!
+    c16 c'32 h c16 g c g e! c <g d' h'>4 r8 g'
+    e16 c'32 h c16 c, d8 h' c,4 r
+    R1*2 %65
+    r8 d\p d d d r r4
+    R1*2
+    r2 g,16\f g'32 fis g16 d g d h g
+    <d a' fis'>4 r8 d' h16 g'32 fis g16 g, a8 fis' %70
+    g,4 r r2
+    R1*3
+    r2 r8 g'\p g g %75
+    g r r4 r2
+    R1*2
+    c,16\f c'32 h c16 g c g e c <g d' h'>4 r8 g'
+    e16 c'32 h c16 c, d8 h' c, e \appoggiatura f e32^\critnote d e16 e,8 %80
+    r d' \appoggiatura e d32 cis d16 g8 r e \appoggiatura f e32 d e16 c'8
+    r d, \appoggiatura e d32 cis d16 c'8 r h \appoggiatura c h32^\critnote a h16 g,8
+    r \appoggiatura a' g32^\critnote fis g16 a,8 fis' g, h' \appoggiatura c h32^\critnote a h16 h,8
+    r c' \appoggiatura d c32 h c16 c,8 r a' \appoggiatura h a32^\critnote g a16 a,8
+    r h' \appoggiatura c h32^\critnote a h16 h,8 r gis' \appoggiatura a gis32^\critnote fis gis16 gis,8 %85
+    r \appoggiatura h' a32^\critnote gis a16 h,8 gis' a, e' \appoggiatura f e32^\critnote d e16 e,8
+    r f' \appoggiatura g f32^\critnote e f16 f,8 r d' \appoggiatura e d32^\critnote c d16 d,8
+    r e' \appoggiatura f e32 d e16 e,16 e' d8 h' \appoggiatura c h32^\critnote a h16 h,8
+    r c' \appoggiatura d c32^\critnote h c16 c,8 r c' \appoggiatura d c32^\critnote h c16 c,8
+    r \appoggiatura d' c32^\critnote h c16 d,8 h' c,16 c'32 h c16 g c g e c %90
+    <g d' h'>4 r8 g' e16 c'32 h c16 c, d8 h'
+    c16 e,32 d e16 c' d,8 h' c,4 r\fermata \bar "|." %92 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble
