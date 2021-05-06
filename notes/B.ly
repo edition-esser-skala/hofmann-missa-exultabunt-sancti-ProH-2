@@ -253,6 +253,217 @@ GloriaBassoLyrics = \lyricmode {
   men, a -- men. %92 finis
 }
 
+CredoBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoCredo
+    s2.*61 \bar "||" %61 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  % Et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
+  % De -- um de De -- o, lu -- men de lu -- mi -- ne,
+  % De -- um ve -- rum de De -- o ve -- ro,
+}
+
+EtIncarnatusBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoEtIncarnatus
+      \set Score.currentBarNumber = #62
+    s1*17 %78
+    g'4 g, d''8. h16 g8 d
+    es c r c'des8. e,16 e8 e %80
+    f f, r c'' es!8. fis,16 fis8 fis
+    g g, r c' as[ f b, b']
+    g es r as f[ d g, g']
+    es c c' c c4. c8
+    g,4. g8 c4 r %85
+    R1*2
+    R1\fermata \bar "||" %88 finis
+  }
+}
+
+EtIncarnatusBassoLyrics = \lyricmode {
+  % Cru -- ci --
+  fi -- xus e -- ti -- am pro %79
+  no -- bis sub Pon -- ti -- o Pi -- %80
+  la -- to, sub Pon -- ti -- o Pi --
+  la -- to, pas -- _
+  _ sus, pas -- _
+  _ sus, pas -- sus et se --
+  pul -- tus est. %85 finis
+}
+
+EtResurrexitBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #89
+    R2. %89
+    \mvTr c4\fE^\tutti c' g %90
+    a a, r8 e'
+    f e d4( g)
+    c, r r8 g'
+    c4 c, r8 c'
+    h4^\critnote g r %95
+    c, d2
+    g,4 r r
+    r r g'
+    c c, r
+    g' g, r8 g' %100
+    a8. a,16 a4 r
+    e'4 e r
+    f f f
+    f2 e4
+    f g2 %105
+    c,4 r r
+    R2.*4 %110
+    \mvTr c'2.\fE^\tuttiE
+    g
+    a
+    e
+    f4 d r %115
+    c g' r
+    c2.(\p
+    b)
+    as2 as4
+    g g,\f g' %120
+    e! c r
+    d r8 d e4
+    c d2
+    g,4 r r
+    R2.*19 %143
+    r4 \mvTr e'\pE^\solo d'
+    c h a %145
+    gis8. fis16 e4 r
+    r a4. g8
+    f!4 fis2
+    g4 g,8 g' c h
+    a g f([ e] d[ e16 f]) %150
+    g4 e8 d c d16([ e)]
+    f4 r g
+    c g2
+    c,4 r r
+    R2.*2 %156
+    \mvTr c4\fE^\tutti e c
+    a h r
+    c e c
+    g'8. g16 g,4 r %160
+    c c' a
+    f4. f8 e4
+    a e4. e8
+    a,4 r r
+    R2.*3 %167
+    \mvTr g'4.\fE^\tutti f!8 e d
+    c4 c' a
+    f g2 %170
+    c,4 r r
+    R2.
+    \mvTr c4.\fE^\tuttiE c8 e c
+    g'4 g, r
+    c'2.\p %175
+    as
+    f
+    fis
+    g4 g, g'\f
+    c c, c' %180
+    a f f
+    g4. g8 a4
+    f8 f g2
+    c,4 r e
+    f r f %185
+    g r g
+    a r a
+    h r h
+    c r g
+    c, r8 c'( g4) %190
+    c,4 r r\fermata \bar "|." %191 finis
+  }
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+  Et re -- sur -- %90
+  re -- xit ter --
+  ti -- a di --
+  e se --
+  cun -- dum, se --
+  cun -- dum %95
+  Scri -- ptu --
+  ras,
+  in
+  coe -- lum,
+  se -- det ad %100
+  dex -- te -- ram,
+  se -- det,
+  se -- det ad
+  dex -- te --
+  ram Pa -- %105
+  tris.
+
+  Iu -- %111
+  di --
+  ca --
+  re
+  vi -- vos, %115
+  vi -- vos
+  et __
+
+  mor -- tu --
+  os, cu -- ius %120
+  re -- gni
+  non, non e --
+  rit fi --
+  nis.
+
+  Qui cum %144
+  Pa -- tre et %145
+  Fi -- li -- o
+  si -- mul
+  ad -- o --
+  ra -- tur et con -- glo --
+  ri -- fi -- ca -- %150
+  tur: Qui lo -- cu -- tus
+  est per
+  Pro -- phe --
+  tas.
+
+  Et u -- nam %157
+  san -- ctam,
+  san -- ctam ca --
+  tho -- li -- cam %160
+  et a -- po --
+  sto -- li -- cam
+  Ec -- cle -- si --
+  am.
+
+  In re -- mis -- si -- %168
+  o -- nem pec --
+  ca -- to -- %170
+  rum.
+
+  Re -- sur -- re -- cti --
+  o -- nem
+  mor -- %175
+  tu --
+  o --
+  _
+  _ rum, et
+  vi -- tam ven -- %180
+  tu -- ri, ven --
+  tu -- ri sae --
+  cu -- li, a --
+  men, a --
+  men, a -- %185
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %190
+  men. %191 finis
+}
+
 % BassoNotes = {
 %   \relative c {
 %     \clef bass

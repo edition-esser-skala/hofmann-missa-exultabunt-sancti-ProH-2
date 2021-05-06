@@ -165,6 +165,182 @@ GloriaViolinoI = {
   }
 }
 
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    <c' e>4\f c, r
+    r16 c e g c g c e \tuplet 3/2 8 { \sbOn g f e d c h \sbOff }
+    c a, c e a e a c \tuplet 3/2 8 { \sbOn e d c h a g \sbOff }
+    a h c g f e f d' \tuplet 3/2 8 { \sbOn h c d d, e f \sbOff }
+    e c e g c g c e \tuplet 3/2 8 { \sbOn g f e d c h \sbOff } %5
+    c g c e g c, e g \tuplet 3/2 8 { \sbOn c h a g fis e \sbOff }
+    d g, h d g h, d g \tuplet 3/2 8 { \sbOn h a g fis? e d \sbOff }
+    c e, a c e a, c e \tuplet 3/2 8 { \sbOn a g fis e d c \sbOff }
+    h g h d \tuplet 3/2 8 { \sbOn g fis e d c h \sbOff } a8 fis'
+    g,16 g, h d g d g h \tuplet 3/2 8 { \sbOn d c h a g fis \sbOff } %10
+    g g, h d g d g h \tuplet 3/2 8 { \sbOn d c h a g f \sbOff }
+    e gis h e gis h, e gis \tuplet 3/2 8 { \sbOn h a gis f! e d \sbOff }
+    c a, c e a e a c \tuplet 3/2 8 { \sbOn e d c h a g \sbOff }
+    f! d f a d a d f \tuplet 3/2 8 { \sbOn a g f e d c \sbOff }
+    h g h d g d g h \tuplet 3/2 8 { \sbOn d c h a g f \sbOff } %15
+    e c e g \tuplet 3/2 8 { \sbOn c h a g f e \sbOff } d8 h'
+    c,4 r r
+    R2.*3 %20
+    r4 r16 e,\pE gis h \tuplet 3/2 8 { \sbOn e d c h a gis \sbOff }
+    a a, c e a e a c e a, c e
+    f4 d, r
+    R2.*3 %26
+    r16 e\p a c e a, c e \tuplet 3/2 8 { \sbOn a e d c h a \sbOff }
+    h e, gis h e h e gis \tuplet 3/2 8 { \sbOn h a gis fis e dis \sbOff }
+    e8 r r4 r
+    r16 a,,\f c e a e a c \tuplet 3/2 8 { \sbOn e d c c h a \sbOff } %30
+    gis e gis h e h e gis \tuplet 3/2 8 { \sbOn h a gis f! e d \sbOff }
+    c a,\p c e a e a c \tuplet 3/2 8 { \sbOn e d c c h a \sbOff }
+    d d, f a d a d e \tuplet 3/2 8 { \sbOn f e d d c h \sbOff }
+    c c, e g c g c e \tuplet 3/2 8 { \sbOn g f e d c h \sbOff }
+    c c, e'( d) d( c) c( h) h( a) a( g) %35
+    \slurDashed a a' c( h) h( a) a( g) g( f) f( e) \slurSolid
+    \sbOn \tuplet 3/2 8 { d e f } e16. c'32 \sbOff d,8 c' g, h'
+    c,,4 r r
+    r r16 g'\fE h d \tuplet 3/2 8 { \sbOn g f e d c h \sbOff }
+    c4 r r %40
+    r16 e,\p gis h e h e gis \tuplet 3/2 8 { \sbOn h a gis f! e d \sbOff }
+    c4 r r
+    r r16 e,\f gis h \tuplet 3/2 8 { \sbOn e d c h a gis \sbOff }
+    a c, e a c\pE e, a c e a, c e
+    a8 \tuplet 3/2 8 { c,16 h c } a8 fis g a %45
+    g g' r g r fis
+    r16 g,,\fE h d g d g h \tuplet 3/2 8 { \sbOn d c h h a g \sbOff }
+    g' g, h d g d g h \tuplet 3/2 8 { \sbOn d c h a g f! \sbOff }
+    e c, e g c g c e \tuplet 3/2 8 { \sbOn g f e d c h \sbOff }
+    c( e) e( d) d( c) c( h) h( a) a( g) %50
+    f d f a d a d f \tuplet 3/2 8 { \sbOn a g f e d c \sbOff }
+    h d, g h d g, h d \tuplet 3/2 8 { \sbOn g f e d c h \sbOff }
+    c c, e g c g c e \tuplet 3/2 8 { \sbOn d e f g f g \sbOff }
+    e8 c16 h c8 g e c
+    g'4 g,16 g' h d \tuplet 3/2 8 { \sbOn g f e f e d \sbOff } %55
+    e c e g \tuplet 3/2 8 { \sbOn c h a g f e \sbOff } d8 h'
+    c,16 c, e g c g c e \tuplet 3/2 8 { \sbOn g f e d c b \sbOff }
+    a f a c f a, c f \tuplet 3/2 8 { \sbOn a g f e d c \sbOff }
+    h! g h d g d g h \tuplet 3/2 8 { \sbOn d c h a g f \sbOff }
+    e c e g \tuplet 3/2 8 { \sbOn c h a g f e \sbOff } d8 h' %60
+    c,4 r r\fermata \bar "||" %61 finis
+  }
+}
+
+EtIncarnatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #62
+    c8\pE es16. g32 c8 es <d f,>4 r %62
+    r8 c16.( d64 es) c8 c c r r4
+    R1*6 %69
+    r8 es16.( f64 g) es8 es16.( f64 g) es8 r r4 %70
+    R1*5 %75
+    r2 c,8 es16. g32 c8 es
+    <d f,>4 r c8.( d32 es) c8 c
+    c r r4 r8 es r es
+    r d r d r d r d
+    r es r es r des r des %80
+    r c r c r c r c
+    r h r c r c r as'
+    r g r g r f r f
+    r es r es r es r es
+    r es r d r16 es es es es( d) d( c) %85
+    h4 r r8 c16.( d64 es) c8 c
+    c r r g fis16\f es'-! es-! es-! es8.( d32 c)
+    h8 c16. as32 f8-! g-! c,4 r\fermata \bar "||" %88 finis
+  }
+}
+
+EtResurrexitViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #89
+    <c' e>4\f c, r %89
+    r16 c e g c g c e \tuplet 3/2 8 { \sbOn g f e d c h \sbOff } %90
+    c a, c e a e a c \tuplet 3/2 8 { \sbOn e d c h a g \sbOff }
+    a h c g f e f d' \tuplet 3/2 8 { \sbOn h c d d, e f \sbOff }
+    e c e g c g c e \tuplet 3/2 8 { \sbOn g f e d c h \sbOff }
+    c g c e g c, e g \tuplet 3/2 8 { \sbOn c h a g fis e \sbOff }
+    d g, h d g h, d g \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff } %95
+    c a e' c \tuplet 3/2 8 { \sbOn h c d e fis g \sbOff } a,8 fis'
+    g,16 g, h d g h, d g h d, g h
+    d g, h d \tuplet 3/2 8 { \sbOn f! e d c h a \sbOff } g h d f
+    e g, c e g c, e g \tuplet 3/2 8 { \sbOn c h a g fis e \sbOff }
+    d g, h d g h, d g \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff } %100
+    c e, a c e a, c e \tuplet 3/2 8 { \sbOn a g f e d c \sbOff }
+    b c, e g b g b e \tuplet 3/2 8 { \sbOn g f e d c b \sbOff }
+    a f a c f a, c f \tuplet 3/2 8 { \sbOn a g f e d c \sbOff }
+    h! g h d \tuplet 3/2 8 { \sbOn g f e d c h \sbOff } c e g c
+    a f d a g8 c' d, h' %105
+    c,4 r r
+    R2.*4 %110
+    c16\fE g c e g c, e g \tuplet 3/2 8 { \sbOn c h a g fis e \sbOff }
+    d g, h d g h, d g \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff }
+    c e, a c e a, c e \tuplet 3/2 8 { \sbOn a g f e d c \sbOff }
+    h e, g h e g, h e \tuplet 3/2 8 { \sbOn g f e d c h \sbOff }
+    a4 h r %115
+    <e c e,> <g h, d, g,> r
+    r16 c,,\pE es g c g c es \tuplet 3/2 8 { \sbOn g f es es d c \sbOff }
+    d d, g b d g, b d \tuplet 3/2 8 { \sbOn g f es d c b \sbOff }
+    c es d c c, es' d c fis, es' d c
+    h! d, g h d\fE g, h d \tuplet 3/2 8 { \sbOn g f! e! d c h \sbOff } %120
+    c c, e g c g c e g c, e g
+    a a, c fis \tuplet 3/2 8 { \sbOn a g fis e d c h c d e fis g \sbOff }
+    e c a c \tuplet 3/2 8 { \sbOn h c d e fis g \sbOff } a,8 fis'
+    g,16 d g h d h d g \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff }
+    c d, fis a c a c fis \tuplet 3/2 8 { \sbOn a g fis e d c \sbOff } %125
+    h g h d \tuplet 3/2 8 { \sbOn g fis e d c h \sbOff } a8 fis'
+    g,4 r r
+    R2.*12 %139
+    r16 a,\fE c e a e a c \tuplet 3/2 8 { \sbOn e d c c h a \sbOff } %140
+    h e, gis h e h e gis \tuplet 3/2 8 { \sbOn h a gis f! e d \sbOff }
+    c a c e \tuplet 3/2 8 { \sbOn a e d c h a \sbOff } h8 gis'
+    a,4 r r
+    R2.*10 %153
+    r16 g\fE c e g c, e g \tuplet 3/2 8 { \sbOn c h a g f e \sbOff }
+    d g, h d g d g h \tuplet 3/2 8 { \sbOn d c h a g f \sbOff } %155
+    e c e g \tuplet 3/2 8 { \sbOn c h a g f e \sbOff } d8 h'
+    c,16 c, e g c e, g c \tuplet 3/2 8 { \sbOn e d c h a g \sbOff }
+    f( e f) e'-! d d, f h \tuplet 3/2 8 { \sbOn d c h a g f \sbOff }
+    e( d e) d'-! c c, e g c e g c
+    e, g c, g' h, d g h \tuplet 3/2 8 { \sbOn d c h a g f \sbOff } %160
+    e c, e g c e, g c e a, c e
+    d? c h a a' c, h a \tuplet 3/2 8 { \sbOn h' a gis f! e d \sbOff }
+    \tuplet 3/2 8 { \sbOn c d e fis gis a \sbOff } h,8 a' e, gis'
+    a,,4 r r
+    R2.*3 %167
+    g'16\fE g, h d g d g h d g, h d
+    e c e g \tuplet 3/2 8 { \sbOn c h a g f e c' h a g f e \sbOff }
+    \tuplet 3/2 8 { \sbOn c' h a g f e \sbOff } d8 c' g, h' %170
+    c,4 r r
+    r r16 c,\fE e g c e, g c
+    e g, c e g c, e g \tuplet 3/2 8 { \sbOn c h a g f e \sbOff }
+    e4 d r
+    r16 c,\pE es g c g c es \tuplet 3/2 8 { \sbOn g f es d c h! \sbOff } %175
+    c as, c es as es as c \tuplet 3/2 8 { \sbOn es d c b as g \sbOff }
+    as f as c f c f as c as g f
+    es( d es) c' es,( d es) c' es,( d es) c'
+    es,( d es) c' d, g, h! d \tuplet 3/2 8 { \sbOn g\fE f e! d c h \sbOff }
+    c c, e g c g c e \tuplet 3/2 8 { \sbOn g f e d c h \sbOff } %180
+    f' f, a c f a, c f \tuplet 3/2 8 { \sbOn a g f e d c \sbOff }
+    h g h d \tuplet 3/2 8 { \sbOn g f e e d c \sbOff } c e a c
+    \tuplet 3/2 8 { \sbOn a g f e d c \sbOff } d,8 c' g, h'
+    c,16 e g c e g, c e \tuplet 3/2 8 { \sbOn g f e d c b \sbOff }
+    a f a c f a, c f\tuplet 3/2 8 { \sbOn a g f e d c \sbOff } %185
+    h! g h d g h, d g \tuplet 3/2 8 { \sbOn h a g fis e d \sbOff }
+    c a c e a c, e a \tuplet 3/2 8 { \sbOn c h a g f e \sbOff }
+    d h d g h d, g h \tuplet 3/2 8 { \sbOn d c h a g f \sbOff }
+    e c e g \tuplet 3/2 8 { \sbOn c h a g f e \sbOff } d8 h'
+    c,4 r8 c' d, h' %190
+    c,4 r r\fermata \bar "|." %191 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

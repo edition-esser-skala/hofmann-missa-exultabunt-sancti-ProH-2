@@ -114,3 +114,116 @@ GloriaClarinoI = {
     e4 r8 d c4 r\fermata \bar "|." %92 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    e'2\fE r4
+    e r r
+    e r r
+    r r d
+    e \pa e r8 d \pd %5
+    e4 r8 e c e
+    d4 r r
+    R2.
+    d4 r8 g4 fis8
+    g4 r r %10
+    d r r
+    e2.
+    e4 r r
+    R2.
+    d2 d4 %15
+    e e d
+    c r r
+    R2.*29 %46
+    r4 r d\fE
+    d d d
+    e4. e8 e4
+    \once \partCombineChords e r r %50
+    R2.
+    d4 r d
+    c r d
+    e r e
+    e d r %55
+    e e d
+    c r r
+    R2.
+    r4 r d
+    e4. c8 d4 %60
+    c r r\fermata \bar "||" %61 finis
+  }
+}
+
+EtResurrexitClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #89
+    e'2\fE r4 %89
+    e r r %90
+    e r r
+    r r d
+    e r8 e4 d8
+    e4 e r8 e
+    d4 d r %95
+    e \pa d d8. d16
+    d4 \pd r r
+    r r g
+    g2 r4
+    g g r %100
+    e2 r4
+    c2 c4
+    c r r
+    d2 e4
+    r d^\critnote d %105
+    c r r
+    R2.*4 %110
+    e2.\fE
+    d
+    c
+    e
+    R %115
+    e4 d r
+    R2.*3
+    r4 d\fE d %120
+    e e r
+    R2.^\critnote
+    r4 g fis
+    g r r
+    R2.*32 %156
+    e2\fE e4
+    e d r
+    e2 e4
+    e d d8. d16 %160
+    e4 r r
+    r r e
+    e e4. e8
+    e4 r r
+    R2.*3 %167
+    d4.\fE d8 d d
+    e4 e e
+    d d2 %170
+    c4 r r
+    R2.
+    e4.\fE e8 e e
+    e4 d r
+    c2\pE r4 %175
+    c2 r4
+    c2 r4
+    c2 r4
+    g2 d'4\fE
+    e e e %180
+    f2 f4
+    f4. f8 e4
+    d d2
+    c4 r c
+    c r r %185
+    d r r
+    R2.
+    d4 r d
+    e r d
+    c r8 e d4 %190
+    c r r\fermata \bar "|." %191 finis
+  }
+}

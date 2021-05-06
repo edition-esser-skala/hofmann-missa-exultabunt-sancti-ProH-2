@@ -114,3 +114,116 @@ GloriaClarinoII = {
     g4 r8 g e4 r\fermata \bar "|." %92 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    c'2\fE r4
+    c r r
+    c r r
+    r r g
+    g r8 g g g %5
+    g4 r8 g g g
+    g4 r r
+    R2.
+    g4 r8 d'[ d d]
+    d4 r r %10
+    g, r r
+    e2.
+    e4 r r
+    R2.
+    g2 g4 %15
+    g g g8. g16
+    e4 r r
+    R2.*29 %46
+    r4 r g\fE
+    g g g
+    g4. g8 g4
+    c, r r %50
+    R2.
+    g'4 r g
+    g r g
+    g r c
+    c g r %55
+    g g g8. g16
+    e4 r r
+    R2.
+    r4 r g
+    g4. g16 g g8 g %60
+    e4 r r\fermata \bar "||" %61 finis
+  }
+}
+
+EtResurrexitClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #89
+    c'2\fE r4 %89
+    c r r %90
+    c r r
+    r r g
+    g r8 g[ g g]
+    g4 g r8 g
+    g4 g r %95
+    c d d8. d16
+    d4 r r
+    r r d
+    e2 r4
+    d d r %100
+    c2 r4
+    c,2 c4
+    c r r
+    g'2.
+    r4 g g8. g16 %105
+    e4 r r
+    R2.*4 %110
+    g2.\fE
+    g
+    e
+    e
+    R %115
+    g4 g r
+    R2.*3
+    r4 g\fE g %120
+    c c r
+    R2.
+    r4 d d8. d16
+    d4 r r
+    R2.*32 %156
+    c2\fE c4
+    c g \once \tieDashed d'~
+    d c c
+    c8. g16 g4 g8. g16 %160
+    g4 r r
+    r r e
+    e e4. e8
+    e4 r r
+    R2.*3 %167
+    g4.\fE g8 g g
+    g4 g c
+    c g4. g8 %170
+    e4 r r
+    R2.
+    c'4.\fE c8 c c
+    c4 g r
+    c,2\pE r4 %175
+    c2 r4
+    c2 r4
+    c2 r4
+    g2 g'4\fE
+    g c c %180
+    c2 d4_\critnote
+    d4. d8 c4
+    c g4. g8
+    e4 r c
+    c r r %185
+    g' r r
+    R2.
+    g4 r g
+    g r g
+    e r8 g16 g g8 g %190
+    e4 r r\fermata \bar "|." %191 finis
+  }
+}

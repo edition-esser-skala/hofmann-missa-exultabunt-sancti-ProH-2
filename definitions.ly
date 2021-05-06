@@ -673,6 +673,9 @@ tocLabelLong = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Allegro"
 tempoGloria = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"

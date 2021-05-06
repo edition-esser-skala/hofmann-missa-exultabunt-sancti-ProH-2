@@ -356,6 +356,420 @@ GloriaBassFigures = \figuremode {
   r4 <4>8 <3> r2 %92 finis
 }
 
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoCredo
+    \mvTr c'4\fE-\tutti c,16 c' h a g f e d
+    c8 \tuplet 3/2 8 { c'16 h c } c,8 c' h g
+    a, \tuplet 3/2 8 { a'16 g a } a, 8 a' g e
+    f e d d g g,
+    c4 r8 c e g %5
+    c \tuplet 3/2 8 { c16 h c } c,8 c e c
+    g' \tuplet 3/2 8 { g16 fis g } g,8 g' g, g'
+    a \tuplet 3/2 8 { c16 h a } a,8 a' fis d
+    g \tuplet 3/2 8 { h16 a g } d8 g d d,
+    g \tuplet 3/2 8 { g'16 fis g } g,8 g' d d' %10
+    g,, \tuplet 3/2 8 { g'16 fis g } g,8 g' g, g'
+    gis, \tuplet 3/2 8 { gis'16 fis gis } e8 e gis e
+    a \tuplet 3/2 8 { c16 h a } a,8 a' a, a'
+    d, \tuplet 3/2 8 { d'16 cis d } d,8 d' d, d'
+    g,, \tuplet 3/2 8 { g'16 fis g } g,8 g' g, g' %15
+    c, \tuplet 3/2 8 { c'16 h c } g8 c g g,
+    c \tuplet 3/2 8 { c'16 h c } \mvTr c,8\pE-\solo c' h, h'
+    a, \tuplet 3/2 8 { a'16 gis a } a,8 a' c a
+    h, \tuplet 3/2 8 { h'16 ais h } h,8 h' h, h'
+    e, \tuplet 3/2 8 { e'16 dis e } e,8 e' e, e' %20
+    a,, \tuplet 3/2 8 { a'16 gis a } e8 e' d,! d'!
+    c, \tuplet 3/2 8 { c'16 h c } a,8 a' c a
+    d, \tuplet 3/2 8 { d'16 cis d } d,8 d' d, d'
+    e, \tuplet 3/2 8 { e'16 dis e } e,8 e' e, e'
+    a,, \tuplet 3/2 8 { a'16 gis a } a,8 h c c' %25
+    d, \tuplet 3/2 8 { d'16 c d } e8 d e e,
+    a \tuplet 3/2 8 { c16 h a } a,8 a' c a
+    gis \tuplet 3/2 8 { gis16 fis gis } e8 e, e' fis
+    gis fis e d c h
+    a\fE \tuplet 3/2 8 { a'16 gis a } a,8 a' c a %30
+    e \tuplet 3/2 8 { e'16 dis e } e,8 gis e gis
+    a \tuplet 3/2 8 { c16\pE h a } a,8 a' c a
+    f \tuplet 3/2 8 { d'16 cis d } d,8 d' h g
+    e \tuplet 3/2 8 { c'16 h c } c,8 c c' h
+    a c16 h a8 g f e %35
+    f a16 g f8 e d c
+    h \tuplet 3/2 8 { c16 h c } g'8 g, g' g,
+    c \tuplet 3/2 8 { c'16 h c } c,8 c e c
+    g \tuplet 3/2 8 { g'16 fis g } g,8\fE g' f, f'
+    e \tuplet 3/2 8 { c'16 h c } c,8\pE c' h a %40
+    gis \tuplet 3/2 8 { e'16 dis e } e,8 gis e gis
+    a a, h c d dis
+    e \tuplet 3/2 8 { e'16 dis e } e,8\fE e' d, d'
+    c, \tuplet 3/2 8 { c'16 h c } a8\pE a, a' g!
+    fis \tuplet 3/2 8 { a16 g a } fis8 d e fis %45
+    g \tuplet 3/2 8 { e16 d e } c8 a d d,
+    g\fE \tuplet 3/2 8 { g'16 fis g } g,8 g' h-\tutti g
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 g' g, g'
+    c, \tuplet 3/2 8 { c'16 h c } c,8 c e g
+    c h a g f e %50
+    d \tuplet 3/2 8 { d'16 cis d } d,8 d f fis
+    g \tuplet 3/2 8 { g16 fis g } g,8 g' h g
+    c, c'16 h c,8 c' g h
+    c, c'16 h c8 g e c
+    g \tuplet 3/2 8 { g'16 fis g } g,8 g' h g %55
+    c, \tuplet 3/2 8 { c'16 h c } g8 c g g,
+    c \tuplet 3/2 8 { c'16 h c } c,8-\soloE e c e
+    f \tuplet 3/2 8 { f16 e f } f,8 f' d f
+    g \tuplet 3/2 8 { g16 fis g } g,8 g' g,-\tuttiE g'
+    c, \tuplet 3/2 8 { c'16 h c } c,8 c' g g, %60
+    c4 r r\fermata \bar "||" %61 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  r2.
+  r2 <[6]>4
+  r2 <[6]>4
+  <6>8 q <[7]>4 <7>
+  r2 <[6]>4 %5
+  r2.
+  r
+  r2 <6 5>8 <[\t \t]>
+  r4 <6 4> <[5] _+>
+  r2 <_+>4 %10
+  r2.
+  <6 5>4 <_+>2
+  r2.
+  <_!>
+  r %15
+  r4 <6 4> <5 3>
+  r2 <6\\>4
+  r <[6]> <6>
+  \bo <7 [4]> \bc <8 [_+]> <7 _!>
+  <7 _+>2 <6 4>8 <5 _+> %20
+  r4 <_+> <\t>
+  <6>2.
+  r4 <6>4. <5>8
+  <9 _+>4 <8 \t>2
+  r4. \bo <[6\\]>8 \bc <[6]>4 %25
+  <5>8 <6> <6 4>4 <5 _+>
+  r2.
+  <[6]>4 <_+>2
+  <3>8 q <_+> <\t> <6> <6\\>
+  r2. %30
+  <_+>
+  r
+  <6>2 q4
+  <[6]>2.
+  r %35
+  r
+  <[6]>4 <4> <3>
+  r2.
+  \bo <[6 4]>4 \bc <[5 3]> <4 2>
+  <6>4. q8 <6\\> <_!> %40
+  <6>4 <[_+]>2
+  r8 <6>16 <[5]> <6\\>8 <6> \bo <6 [_!]> \bc <5 [_+]>
+  <_+>2 <\t>4
+  <6>2.
+  <5>4 <6>8 \bo <[_+]> <3> \bc <[3]> %45
+  r4 <6 5> <4>8 <_+>
+  r2.
+  r
+  r
+  r %50
+  r2 <6>8 <\t>16 <5>
+  r2.
+  r
+  r
+  \bo <[6 4]>4 \bc <[5 3]>2 %55
+  r4 <6 4> <5 3>
+  r2 r8 <[6 5-]>
+  r2 r8 <[6]>
+  r2.
+  r2 <4>8 <3> %60
+  r2. %61 finis
+}
+
+EtIncarnatusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #62
+    \mvTr c8-!\pE-\soloE es16.-! g32-! c8-! es-! h4 r8 h, %62
+    c es f g as f g g,
+    c4 r8 c d2
+    r8 g,16. a32 h8 g c4 r8 c %65
+    f, r b r es4 r8 g
+    as2~ as16 as b as g8 as
+    b b b, b es es16. f32 g8 es
+    f f,16. g32 a!8 f b b b b
+    es g as b c as b b, %70
+    es4 r r2
+    r8 b16. c32 d8 b es4 r
+    r2 r4 r8 h
+    c c es g c c, r es
+    f2~ f16 f g f es8 f %75
+    g g g, g c-! es16.-! g32-! c8-! es-!
+    h4 r8 h, c es f g
+    as f g g, c r c r
+    g' r g, r h r h r
+    c r c r b r b r %80
+    as r as r as r as r
+    g r es' r f r d r
+    es r c r d r h r
+    c r es r f r fis r
+    g r g, r c r f r %85
+    g4 r8 h, c es f g
+    as f g g, as4\pocoF r16 as' as as
+    g8 c16. as32 f8-! g-! c,4 r\fermata \bar "||" %88 finis
+  }
+}
+
+EtIncarnatusBassFigures = \figuremode {
+  r2 <7- 5>4 <6 4>8 <5 3> %62
+  r <6> <_-> <6! 4> <6> <6 [_-]> <6 4> <[5] _!>
+  r2 <7>4 <6!>
+  r8 \bo <7 [_! \l]> <7-> <8 6 _!>16 \bc <7 [5 \t]> <9 4>8 <8 3>4. %65
+  <[7] _->4 \bo <[7- \l]> <9 4->8 \bc <[8 3]>4 <6>8
+  <9>4 \bo <[8 6]>8 \bc <[7 5]> <6 4 2>4 <6>8 q
+  <6 4>4 <5 3>2 <6>8 <6>16 <5>
+  <7- _!>2 <7->
+  r8 <6 [_!]> <\t> <6 4> <6-> <6> <6 4> <5 3> %70
+  r1
+  r8 <7->4 \bo <[8 6]>16 \bc <[7- 5]> <9 4->8 <8 3>4.
+  r2.. <[7-]>8
+  r4 <[6]>8 <_!> r4. <6>16 <5>
+  <9 _->4 <8 \t>8 <[7 \t]> <6 4! 2>4 <6>8 <6 _-> %75
+  <6 4>4 <5 _!>2.
+  <7->4. <6 4>16 <5 3> r8 <6> <_-> <6! 4>
+  <6> <6 _-> <6 4> <[5] _!> r2
+  <_!> <6>
+  r <4! _-> %80
+  <6> <6\\>
+  <_!>4 <6> <_-> <6 5->
+  r <6- 5> <5-> <6 5>
+  r <8 6> \bo <[7] _-> \bc <[\t] _!>
+  <6 4> <[5] _!>2 <6 _->8 <5\t> %85
+  <_!>4. <6 4>16 <5 3> r8 <6> <_-> <6! 4>
+  <6> <6 [_-]> <6 4> <[5] _!> <6\\>2
+  <_!>1 %88 finis
+}
+
+EtResurrexitOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #89
+    \mvTr c'4\fE-\tutti c,16 c' h a g f e d %89
+    c8 \tuplet 3/2 8 { c'16 h c } c,8 c' g, g' %90
+    a, \tuplet 3/2 8 { a'16 g a } a,8 a' g e
+    f e d d g g,
+    c4 r8 c e g
+    c \tuplet 3/2 8 { c16 h c } c,8 c' c, c'
+    h \tuplet 3/2 8 { h16 a h } g8 h g h %95
+    c \tuplet 3/2 8 { c,16 h c } d8 c d d,
+    g4 r r
+    r r g'
+    c,8 \tuplet 3/2 8 { c'16 h c } c,8 c' c, c'
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 g' g, g' %100
+    a, \tuplet 3/2 8 { a'16 gis a } a,8 a' a, a'
+    e, \tuplet 3/2 8 { e'16 d e } e,8 e' e, e'
+    f, \tuplet 3/2 8 { f'16 e f } f,8 f' f, f'
+    f, \tuplet 3/2 8 { f'16 e f } f,8 f' e c
+    f, \tuplet 3/2 8 { f'16 e f } g8 f g g, %105
+    c \tuplet 3/2 8 { c'16 h c } c,8 d \mvTr e\p-\solo d
+    c \tuplet 3/2 8 { c'16 h c } c,8 c' f, e
+    f g e c16 d e8 c
+    g \tuplet 3/2 8 { g'16 fis g } h,8 c d g,
+    c \tuplet 3/2 8 { c'16 h c } c,8 e g c %110
+    \mvTr c,\f-\tutti \tuplet 3/2 8 { c'16 h c } c,8 c' c, c'
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 g' g, g'
+    a, \tuplet 3/2 8 { a'16 gis a } a,8 a' a, a'
+    e, \tuplet 3/2 8 { e'16 d e } e,8 e' e, e'
+    f4 d r %115
+    c-! g'-! r
+    c,8\p \tuplet 3/2 8 { c'16 b c } c,8 c' c, c'
+    b, \tuplet 3/2 8 { b'16 a b } b,8 b' b, b'
+    as, \tuplet 3/2 8 { as'16 g as } as,8 as' as, as'
+    g, \tuplet 3/2 8 { g'16 fis g } g,8\f g' g, g' %120
+    e! \tuplet 3/2 8 { c'16 h c } c,8 c' c, c'
+    d, d d, d' e, e'
+    c \tuplet 3/2 8 { c'16 h c } d,8 c d d,
+    g \tuplet 3/2 8 { g'16 fis g } g,8-\solo g' g, g'
+    fis \tuplet 3/2 8 { d'16 cis d } d,8 d' d, d' %125
+    g,, \tuplet 3/2 8 { g'16 fis g } h,8 c d d,
+    g \tuplet 3/2 8 { g'16 fis g } g,8\p g' fis d
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 d' e h
+    c \tuplet 3/2 8 { a16 h c } d8 d, d' d,
+    g \tuplet 3/2 8 { g'16 fis g } g,8 g' f, f' %130
+    e, \tuplet 3/2 8 { e'16 d e } e,8 e' e, e'
+    a, \tuplet 3/2 8 { a'16 gis a } e8 e, e' d
+    c \tuplet 3/2 8 { c'16 h c } a8 a, h c
+    d \tuplet 3/2 8 { d'16 c d } h8 g a h
+    c, \tuplet 3/2 8 { c'16 h c } a8 f g a %135
+    h, \tuplet 3/2 8 { h'16 a h } gis8 e fis gis
+    a, \tuplet 3/2 8 { a'16 gis a } a,8 a' a, a'
+    e, \tuplet 3/2 8 { e'16 dis e } e,8 e' e, e'
+    a, \tuplet 3/2 8 { f'16 e d } e8 d e e,
+    a\fE \tuplet 3/2 8 { a'16 gis a } a,8 a' a, a' %140
+    gis \tuplet 3/2 8 { e'16 dis e } e,8 gis e gis
+    a, \tuplet 3/2 8 { a'16 gis a } c8 a d, e
+    a, \tuplet 3/2 8 { a'16 gis a } a,8\pE c' h a
+    gis e16 fis gis8 h gis e
+    a a, h c d dis %145
+    e \tuplet 3/2 8 { e'16 dis e } e,8 e gis e
+    c' h a a, a' g
+    f! \tuplet 3/2 8 { d'16 cis d } fis,8 d' d, fis
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 g' c h
+    a g f e d e16 f %150
+    g8 \tuplet 3/2 8 { g16 f g } e8 d c d16 e
+    f8 a16 f d8 f16 d h8 g'
+    c, \tuplet 3/2 8 { c'16 h c } g8 f g g,
+    c\f \tuplet 3/2 8 { c'16 h c } c,8 c' c, c'
+    h \tuplet 3/2 8 { g16 fis g } g,8 g' g, g' %155
+    c, \tuplet 3/2 8 { c'16 h c } e,8 f g g,
+    c-\tuttiE \tuplet 3/2 8 { c'16 h c } e,8 c' c, c'
+    a, \tuplet 3/2 8 { a'16 g a } h,8 g h g
+    c \tuplet 3/2 8 { c'16 h c } e,8 c' c, c'
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 g' h g %160
+    c, \tuplet 3/2 8 { c'16 h c } c,8 c' a c
+    f,, \tuplet 3/2 8 { f'16 e f } f,8 f' e, e'
+    a, \tuplet 3/2 8 { a'16 gis a } e8 d e e,
+    a \tuplet 3/2 8 { a'16 gis a } a,8 a' \mvTr a,\p-\solo a'
+    d, \tuplet 3/2 8 { d'16 cis d } d,8 f g g, %165
+    c \tuplet 3/2 8 { c'16 h c } f,8 f, fis fis'
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 h d g
+    \mvTr g,\f-\tutti \tuplet 3/2 8 { g'16 fis g } g,8 f' e d
+    c \tuplet 3/2 8 { c'16 h c } c,8 c' a, a'
+    f, \tuplet 3/2 8 { f'16 e f } g8 f g g, %170
+    c4 r \mvTr c\p-\solo
+    g c r
+    \mvTr c8\f-\tutti \tuplet 3/2 8 { c'16 h c } c,8 c e c
+    g \tuplet 3/2 8 { g'16 fis g } g,8 h d g
+    c,\p \tuplet 3/2 8 { c'16 h! c } c,8 c' c, c' %175
+    as, \tuplet 3/2 8 { as'16 g as } as,8 as' as, as'
+    f, \tuplet 3/2 8 { f'16 e! f } f,8 f' f, f'
+    fis, \tuplet 3/2 8 { fis'16 e fis } fis,8 fis' fis,8 fis'
+    g, \tuplet 3/2 8 { g'16 f g } g,8 g' g,\fE g'
+    c, \tuplet 3/2 8 { c'16 h c } c,8 c' c, c' %180
+    a, \tuplet 3/2 8 { a'16 g a } f,8 f' f, f'
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 g' a a,
+    f \tuplet 3/2 8 { f'16 e f } g8 f g g,
+    c \tuplet 3/2 8 { c'16 h c } c,8 c' e, c'
+    f, \tuplet 3/2 8 { f16 e f } f,8 f' f, f' %185
+    g, \tuplet 3/2 8 { g'16 fis g } g,8 g' g, g'
+    a, \tuplet 3/2 8 { a'16 g a } a,8 a' a, a'
+    h, \tuplet 3/2 8 { h'16 a h } h,8 h' h, h'
+    c, \tuplet 3/2 8 { c'16 h c } c,8 c' g g,
+    c \tuplet 3/2 8 { c'16 h c } c,8 c' g g, %190
+    c4 r r\fermata \bar "|." %191 finis
+  }
+}
+
+EtResurrexitBassFigures = \figuremode {
+  r2. %89
+  r %90
+  r2 <6>4
+  q8 q <7>4 q
+  r2 <[6]>4
+  r2.
+  <[6]> %95
+  <6 5>4 \bo <[6] 4> \bc <[5] _+>
+  r2.
+  r
+  r
+  r %100
+  r
+  <6 5->
+  r
+  <6 4! 2>2 <6>4
+  <6 5> <4> <3> %105
+  r2.
+  r2 <6>8 q
+  q4 q2
+  r4 <[6]> <7>8 q
+  r2. %110
+  r
+  r
+  r
+  <_!>
+  r4 <6>2 %115
+  r2.
+  <_->
+  <6>
+  <6\\ [5-]>
+  <_!> %120
+  <[6]>
+  <[7] _+>2 <5>4
+  <6 5> \bo <[6] 4> \bc <[5] _+>
+  r2.
+  <[6 5]>4 <[7] _+>2 %125
+  r4 <6> <4>8 <_+>
+  r2 <6 5>8 <[\t \t]>
+  r4. \bo <[7] _+>8 <5> \bc <[6]>
+  <6>4 <6 4> <[5] _+>
+  r2 <[2]>4 %130
+  <[7 _+]> <8 6>8 <7 5> <6 4> <5 _+>
+  r4 <_+>4. <\t>8
+  <6>2.
+  <9>4 <6 5>2
+  <9>4 <6 5>2 %135
+  <9>4 <6 5>2
+  \bo <[9]>4 \bc <[8]>2
+  <6 4>4 <[5] _+>2
+  r8 <6 4> q4 <5 _+>
+  r2. %140
+  \bo <[6]>4 \bc <[_+]>2
+  r4 <[6]> <6 5>8 <_+>
+  r4. <6>8 <6\\>4
+  <6>2 \bo <[6 5]>8 \bc <[\t \t]>
+  r4 <6>8 <\t> <7> <\t _+> %145
+  <_+>2.
+  <6>8 <6\\> r4 <_+>8 <[\t]>
+  <6>4 <\t> \bo <[_+ \l]>8 \bc <[6 5]>
+  r2 r8 <[6]>
+  r2. %150
+  r
+  r2 <[6]>4
+  r <4> <3>
+  r2.
+  <6> %155
+  r4 <[6]>8 <6 5> <4> <3>
+  r2.
+  <6 5>4 <5 3> <6 5>
+  <9> <[6]>2
+  <6 4>4 <5 3>2 %160
+  r2.
+  <6 [5]>2 <7 _+>4
+  r <4> <_+>
+  r2.
+  r4. <7 5> %165
+  r4 <8 6> <7 5>
+  <[6 4]> <5 3>2
+  r2.
+  r
+  <6 5>4 <5 4> <\t 3> %170
+  r2.
+  <[7]>
+  r
+  <6 4>4 <5 3>2
+  <_->2. %175
+  <[5-]>
+  <6 5 _->
+  <7- 5 _!>
+  <6- 4>4 <5 _!>2
+  <_!>2. %180
+  <6>2 q4
+  <7>2 <5>4
+  <6 5> <4> <3>
+  r2 <6 5->4
+  r2 <6 5>4 %185
+  <_!>2 <6 5>4
+  r2 <6 5>4
+  r2 <6 5>4
+  r2.
+  r2 <4>8 <3> %190
+  r2. %191 finis
+}
+
 % Organo = {
 %   \relative c {
 %     \clef bass
