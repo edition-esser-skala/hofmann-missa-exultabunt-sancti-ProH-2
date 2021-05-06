@@ -341,6 +341,44 @@ EtResurrexitViolinoI = {
   }
 }
 
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    c''2\f c4 r\fermata
+    r16 c r c r c r c r h r h r h r h
+    r a r a r a r a r gis r gis r gis r gis
+    r g r g r g r g r f r f r f r f
+    r f r f r f r f r e r e r e r e %5
+    r e r e r d r c r h r g r d r h
+    \time 3/4 \tempoPleni g8 d'' r d r d
+    r e r e r e
+    r c' r c r c
+    r c r h r g %10
+    r e r e r c'
+    r g r g r fis
+    g,4 g, r
+    R2.
+    r4 r c'16 a a' c, %15
+    c4\trill h r
+    R2.
+    r4 r d16 h h' d,
+    d4\trill c r8 e\p
+    r f r f r f %20
+    r d' r d r d
+    r c r c r c
+    r c r h r h\f
+    r c r c r c
+    r c r c r c %25
+    r c r c r h
+    r c r g r b,
+    r a r a' r c,
+    r h! r d' r f,
+    r e d c' g, h' %30
+    c,4 r r\fermata \bar "|." %31 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

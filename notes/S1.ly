@@ -648,6 +648,78 @@ EtResurrexitSopranoLyrics = \lyricmode {
   men. %191 finis
 }
 
+SanctusSopranoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr e'2\fE^\tutti e4 r\fermata
+    e2 d
+    c h
+    b4 b8 b a4 a
+    g g8 g g4 c %5
+    c h8([ a)] h4 r
+    \time 3/4 \tempoPleni d d d
+    e e r
+    e e e
+    e d d8[ c16 d] %10
+    e8[ d] c[ h16 c] d8[ c]
+    h h a2
+    g4 r \mvTr h8([\pE^\solo c)]
+    d4. e16([ d)] c8 h
+    h4 a \mvTr c\fE^\tutti %15
+    c h \mvTr h8([\pE^\solo c)]
+    d4. e16([ f)] e8 d
+    c4 h \mvTr d\fE^\tutti
+    d c \mvTr e8\pE^\solo a,
+    \once \tieDashed f'2.~ %20
+    f8[ d16 e] \appoggiatura g f8[ e16 d] g8[ f]
+    e4. d16[ e] f8[ e]
+    e4 d \mvTr h\fE^\tutti
+    c c c8 c
+    c4 c c %25
+    c c( h)
+    c r r
+    R2.
+    r4 r h
+    c c( h) %30
+    c r r\fermata \bar "|." %31 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us %5
+  Sa -- ba -- oth.
+  Ple -- ni sunt
+  coe -- li,
+  coe -- li et
+  ter -- ra glo -- %10
+  _ _ _
+  ri -- a tu --
+  a. O --
+  san -- na in ex --
+  cel -- sis, o -- %15
+  san -- na, o --
+  san -- na in ex --
+  cel -- sis, o --
+  san -- na in ex --
+  cel -- %20
+  _ _
+  _ _ _
+  _ sis, o --
+  san -- na in ex --
+  cel -- sis, in %25
+  ex -- cel --
+  sis,
+
+  in
+  ex -- cel -- %30
+  sis. %31 finis
+}
+
 % SopranoNotes = {
 %   \relative c' {
 %     \clef treble
