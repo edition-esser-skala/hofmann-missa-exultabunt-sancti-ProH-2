@@ -379,6 +379,63 @@ SanctusViolinoI = {
   }
 }
 
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoBenedictus
+    d'4\fE~ d16. g32 \once \slurDashed h,([ a h c)] d4~ d16.^\critnote g32 h,([ a h c)]
+    d16 d e( d) r \once \slurDashed a( h c) c8\trill h \tuplet 3/2 8 { g'16 d h g[ d h] }
+    a4 \tuplet 3/2 8 { a''16[ fis d] c h c } c8\trill h \tuplet 3/2 8 { g'16[ d h] g d h }
+    \kneeBeam a8. g''16 \appoggiatura g32 fis16[ e32 d] \appoggiatura d32 c16 h32 a \appoggiatura c32 h16[ a32 g] g,8 r h'
+    \appoggiatura dis16 e8 e e \tuplet 3/2 8 { g16 fis e } \appoggiatura d cis8 d r d, %5
+    c' c c \tuplet 3/2 8 { e16 d c } \appoggiatura h ais8 h r16 a \appoggiatura d32 c[ h a16]
+    \appoggiatura g16 fis8 g16. d32 fis'8.(\trill e32 fis) g16-! d-! h-! g-! c8.(\trillE h32 a)
+    \parOn h16-\parenthesize-! g-! d-! \parOff h-\parenthesize-! c16.([ d64 e)] a,16. c32 h16. g'32 g,16. a32 a4\trill
+    g r r2
+    r r16 g''\fE h,16. d32 c16.([ d64 e)] \once \slurDashed a,16( c) %10
+    h8 g, r4 r2
+    R1
+    r2 r4 r16 e''\fE e,16.([ fis64 g)]
+    fis4 r r2
+    r \once \tieDashed a'4\fE~ a16. d32 fis,([ e fis g)] %15
+    \once \tieDashed a4~ a16. d32 fis,([ e fis g)] a16 a h( a) r e( fis g)
+    g8\trillE fis \tuplet 3/2 8 { a16 fis d a[ fis d] } \appoggiatura dis8 e4 \tuplet 3/2 8 { g'16[ e cis] a h g }
+    g8\trillE fis \tuplet 3/2 8 { a'16[ fis d] a fis d } e16.([ fis64 g)] \tuplet 3/2 8 { fis16 d' d, } e4\trill
+    d r r2
+    r r16 d'\fE fis,16.([ g64 a)] g4 %20
+    r8 h\p h h a a \tuplet 3/2 8 { a'16[\f fis d] a fis d }
+    r8 g\p g g fis fis \tuplet 3/2 8 { fis'16[\f d h] fis d h }
+    r8 e\p e e d d r h
+    c c a a' fis fis g g
+    e e fis d g4 r16 g, h d %25
+    g8 g, a8.([-\critnote h32 c)] d8 d16. e32 d8 c
+    h g r d' g g, r d'
+    g c, d d d'4~\f d16. g32 h,([ a h c)]
+    d4~ d16. g32 h,([ a h c)] d16 d e( d) r \once \slurDashed a( h c)
+    c8\trill h \tuplet 3/2 8 { g'16[ d h] g d h } a4 \tuplet 3/2 8 { a''16[ fis d] c h c } %30
+    c8\trillE h \tuplet 3/2 8 { g'16[ d h] g fis dis } e8. c'32 a g8 fis
+    \key c \major \time 3/4 \tempoOsanna g4 g, r
+    R2.
+    r4 r c'16 a a' c,
+    c4\trill h r %35
+    R2.
+    r4 r d16 h h' d,
+    d4\trillE c r8 e\p
+    r f r f r f
+    r d' r d r d %40
+    r c r c r c
+    r c r h r h\f
+    r c r c r c
+    r c r c r c
+    r c r c r h %45
+    r c r g r b,
+    r a r a' r c,
+    r h! r d' r f,
+    r e d c' g, h'
+    c,4 r r\fermata \bar "|." %50 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

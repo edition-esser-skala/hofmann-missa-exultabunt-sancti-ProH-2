@@ -360,10 +360,10 @@ SanctusViolinoII = {
     g,4 g, r
     R2.
     r4 r a'8 c16-\critnote a %15
-    a4 g r
+    a4\trillE g r
     R2.
     r4 r h8 d16 h
-    h4 a r8 a\p
+    h4\trillE a r8 a\p
     r a r a r a %20
     r h r f' r f
     r e r e r e
@@ -376,5 +376,62 @@ SanctusViolinoII = {
     r h! r d' r f,
     r e d c' g, h' %30
     c,4 r r\fermata \bar "|." %31 finis
+  }
+}
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoBenedictus
+    h'4~\fE h8 g32([ fis g a)] \once \tieDashed h4~ h8 g32([ fis g a)]
+    h16 h c( h) r fis( g a) a8\trill g \tuplet 3/2 8 { g'16 d h g[ d h] }
+    a8 g' fis \tuplet 3/2 8 { a16 g a } a8\trill g \tuplet 3/2 8 { g'16[ d h] g d h }
+    \kneeBeam a8. g''16 \appoggiatura g32 fis16[ e32 d] \appoggiatura d32 c16 h32 a \appoggiatura c32 h16[ a32 g] g,8 r4
+    r8 h' h, h' a a r4 %5
+    r8 g g, g' fis fis r e
+    d d fis'8.(\trill e32 fis) g16-! d-! h-! g-! c8.(\trill h32 a)
+    h16-! g-! d-! h-! c16.([ d64 e)] a,16. c32 h16. g'32 g,16. a32 a4\trill
+    g r r2
+    r r8 g'\fE g16( fis) a( c) %10
+    h8 g, r4 r2
+    R1
+    r2 r4 r16 e''\fE cis,16.([ d64 e)]
+    d4 r r2
+    r fis'4\fE~ fis8 d32([ cis d e)] %15
+    fis4~ fis8 d32([ cis d e)] fis16 fis g( fis) r \once \slurDashed cis( d e)
+    e8\trill d \tuplet 3/2 8 { a'16 fis d a[ fis d] } \appoggiatura dis8 e4 \tuplet 3/2 8 { g'16[ e cis?] a h g }
+    g8\trill fis \tuplet 3/2 8 { a'16[ fis d] a fis d } e16.([ fis64 g)] \tuplet 3/2 8 { fis16 d' d, } e4\trill
+    d r r2
+    r r16 d'\fE fis,16.([ g64 a)] g4 %20
+    r8 g\p g g g fis \tuplet 3/2 8 { a'16[\f fis d] a fis d }
+    r8 e\p e e e d \tuplet 3/2 8 { fis'16[\f d h] fis d h }
+    r8 c\p c c c h r h
+    c c a a' fis fis g g
+    e e fis d g4 r16 g, h d %25
+    g8 g, a8.([ h32 c)] d8 d16. e32 d8 c
+    h g r d' g g, r d'
+    g c, d d h'4~\f h8 g32([ fis g a)]
+    h4~ h8 g32([ fis g a]) h16 h c( h) r \once \slurDashed fis( g a)
+    a8\trill g \tuplet 3/2 8 { g'16[ d h] g d h } a8 g' fis \tuplet 3/2 8 { a16 g a } %30
+    a8\trillE g \tuplet 3/2 8 { g'16[ d h] g fis dis } e8 e16. c32 h8 a
+    \key c \major \time 3/4 \tempoOsanna g4 r r
+    R2.
+    r4 r a'8 c16-\critnote a
+    a4\trill g r %35
+    R2.
+    r4 r h8 d16 h
+    h4\trillE a r8 a\p
+    r a r a r a
+    r h r f' r f %40
+    r e r e r e
+    r e r d r d\f
+    r e r e r e
+    r e r e r e
+    r d r d r d %45
+    r e^\critnote r g r b,
+    r a r a' r c,
+    r h! r d' r f,
+    r e d c' g, h'
+    c,4 r r\fermata \bar "|." %50 finis
   }
 }
