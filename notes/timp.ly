@@ -250,3 +250,77 @@ BenedictusTimpani = {
     c4 r r\fermata \bar "|." %50 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    R1*17 %17
+    r2 g4.\fE g8
+    c4 c r2
+    g4 r g8 g16 g g4\fermata \bar "||" %20 finis
+  }
+}
+
+DonaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoDona
+      \set Score.currentBarNumber = #21
+    c4\fE r r2 %21
+    r g4 r
+    c r r2
+    g4 r r2
+    R1 %25
+    g4 r r g
+    c r r2
+    r g4 r
+    c r r2
+    g4 r r2 %30
+    R1
+    g4 r r g
+    c r r2
+    r g4 r
+    c4 r r2 %35
+    r r4 g
+    c r r2
+    R1
+    r2 g4 r
+    r2 g4 r %40
+    r2 g4 r
+    R1*2
+    r2 c4 r
+    R1 %45
+    g4 r c r
+    r2 g4 r
+    R1*15 %62
+    c4 r r2
+    r g4 r
+    c r r2 %65
+    r g4 r
+    c r r2
+    r g4 r
+    c r g r
+    c r r2 %70
+    R1*2
+    g4 c g g8. g16
+    c4 r r2
+    r c4 r %75
+    g r r2
+    c4 r r g
+    c r r2
+    R1*2 %80
+    r2 g4 c
+    g g8. g16 c4 r
+    R1
+    g4 r c r
+    g r c r %85
+    g r c r
+    g r c r
+    g r c r
+    R1
+    r2 g4 c %90
+    g g c g
+    c g c r\fermata \bar "|." %92 FINIS
+  }
+}

@@ -696,13 +696,193 @@ BenedictusAltoLyrics = \lyricmode {
   sis. %50 finis
 }
 
-% AltoNotes = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+AgnusAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1*3
+    \mvTr a'4.\pE^\solo a8 a gis r h
+    h a r c c h16 c h8 a %5
+    a gis r4 r a8 g
+    fis8.[_( g32 a] g8[ a16 h] c8) a16([ f)] e8([ d)]
+    e4 r r2
+    R1*3 %11
+    r2 f8 e16([ d)] e8 a
+    e2 e4 r
+    R1
+    r4 \mvTr a8\fE^\tutti a8 b4 b8 b %15
+    a4 a8 a a4. a8
+    a4 gis8 gis g4^\critnote g8 g
+    fis4 fis8 fis f4. f8
+    e4 e8 e es4. es8
+    es4( d8[ c)] d4 r\fermata \bar "||" %20 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %4
+  tol -- lis, qui tol -- lis pec -- ca -- ta %5
+  mun -- di: Mi -- se --
+  re -- re no --
+  bis.
+
+  Mi -- se -- re -- re %12
+  no -- bis.
+
+  A -- gnus De -- i, qui %15
+  tol -- lis pec -- ca -- ta
+  mun -- di, \xE qui tol -- lis pec --
+  ca -- ta, \x pec -- ca -- ta
+  mun -- di, pec -- ca -- ta
+  mun -- di: %20 finis
+}
+
+DonaAltoNotes = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoDona
+      \set Score.currentBarNumber = #21
+    R1*3 %23
+    \mvTr g'2\fE^\tutti g
+    a4. h8 c[ h c a] %25
+    h[ a] g4. a8[ g f]
+    e[ d] c4 r8 e4 e8
+    f4 a \once \tieDashed g2~
+    g8[ f] e4. fis16[ g] a8[ fis]
+    g[ a h a] g4. fis?8 %30
+    e4 a a r
+    r2 r4 g
+    g8([ f)] e([ f16 g)] a4 r
+    r8 a16([ g] f8[ e] d4 g)
+    g e2 e4 %35
+    f4.( e8) d4 r8 \once \tieDashed g~
+    g[ f] e[ f16 g] a4. g8
+    fis4 r g2
+    a g(
+    a) g %40
+    g4 fis r g~
+    g g a4. h8
+    c([ h c a] h[ a]) g4
+    r2 e
+    e f?4. g8 %45
+    a([ g] g2) e4
+    e8([ fis16 g] a8[ fis)] g4 r
+    R1
+    r2 r4 \once \tieDashed g~
+    g g8([ a)] h2 %50
+    a a
+    g g
+    fis4 r r2
+    e e
+    fis4. g8 a8([ g a fis] %55
+    g[ fis)] e4 r2
+    r4 r8 g( fis[ g e fis])
+    d4 r8 a'( gis[ a fis gis)]
+    e4 r r2
+    R1 %60
+    c2 c
+    d4. e8 f([ e f d]
+    e[ d]) c4 r e
+    f4. g8 g2
+    g4 e2 e4 %65
+    f4. g8 g2
+    g4 e2 e4
+    f4. g8 g2
+    g4 g2 g4
+    g2 a4 c %70
+    h r h2
+    a4 r a2
+    g4 g g r
+    r2 g4. g8
+    a4. h8 c8([ h c a] %75
+    h[ a)] g4 r2
+    r8 g4 fis8 g2
+    g8 e([ f g]) f4 r
+    r8 f([ g a]) g4 r
+    r8 g([ a h)] a4 r %80
+    r8 a4 a8 g2~^\critnote
+    g4 g r8 g16[( f] e8[ f16 g])
+    a4 r r8 a16([ g] f8[ e)]
+    d8 g4 g8 g2
+    g4 g2 g4 %85
+    g2^\critnote g8 g([ f e])
+    d4 r r8 g([ f e)]
+    d4 g2 g4
+    a2. a4
+    a2( g4) g %90
+    g2 g4 g
+    g g g r\fermata \bar "|." %92 FINIS
+  }
+}
+
+DonaAltoLyrics = \lyricmode {
+  Do -- na %24
+  no -- bis pa -- %25
+  _ _ _
+  _ cem, do -- na
+  no -- bis pa --
+  _ _ _
+  _ _ _ %30
+  cem, pa -- cem,
+  do --
+  na no -- bis
+  pa --
+  cem, pa -- cem, %35
+  pa -- cem, pa --
+  _ _ _
+  cem, do --
+  na no --
+  bis %40
+  pa -- cem, pa --
+  cem, no -- bis
+  pa -- cem,
+  do --
+  na no -- bis %45
+  pa -- cem,
+  pa -- cem,
+
+  do --
+  na no -- %50
+  bis pa --
+  cem, pa --
+  cem,
+  do -- na
+  no -- bis pa -- %55
+  cem,
+  pa --
+  cem, pa --
+  cem,
+  %60
+  do -- na
+  no -- bis pa --
+  cem, pa --
+  _ _ _
+  cem, do -- na %65
+  no -- bis pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, pa -- cem,
+  do -- na no -- %70
+  bis pa --
+  cem, pa --
+  cem, pa -- cem,
+  do -- na
+  no -- bis pa -- %75
+  cem,
+  no -- bis pa --
+  cem, pa -- cem,
+  pa -- cem,
+  pa -- cem, %80
+  pa -- cem, pa --
+  cem, pa --
+  cem, pa --
+  cem, pa -- cem, pa --
+  cem, no -- bis %85
+  pa -- cem, pa --
+  cem, pa --
+  cem, do -- na,
+  do -- na
+  no -- bis %90
+  pa -- cem, pa --
+  cem, pa -- cem. %92 FINIS
+}

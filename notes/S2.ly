@@ -158,3 +158,38 @@ BenedictusSopranoIILyrics = \lyricmode {
   ex -- cel --
   sis. %50 finis
 }
+
+AgnusSopranoIINotes = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1*8 %8
+    r2 \mvTr c'4.\pE^\solo c8
+    c h r d d c r c %10
+    c d16 e d8 c c h h c16([ h)]
+    h8 a c h16([ a)] gis4 a
+    a( gis) a r
+    R1
+    r4 \mvTr e'8\fE^\tutti e8 e4 e8 e %15
+    d4 d8 d dis4. dis8
+    e4 e8 e e4 e8 e
+    e4 d8 d d4. d8
+    d4 c8 c c4. c8 \noBreak
+    c4_( h8[ a)] h4 r\fermata \bar "||" %20 finis
+  }
+}
+
+AgnusSopranoIILyrics = \lyricmode {
+  A -- gnus %9
+  De -- i, qui tol -- lis, qui %10
+  tol -- lis pec -- ca -- ta mun -- di: Mi -- se --
+  re -- re, mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus De -- i, qui %15
+  tol -- lis pec -- ca -- ta
+  mun -- di, qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di, pec -- ca -- ta
+  mun -- di: %20 finis
+}

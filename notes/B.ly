@@ -574,13 +574,173 @@ BenedictusBassoLyrics = \lyricmode {
   sis. %50 finis
 }
 
-% BassoNotes = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+AgnusBassoNotes = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1*5 %5
+    r4 \mvTr e8\pE^\solo e \once \tieDashed c'2~
+    c8[ h16. a32] g!8[ f!] e f g4
+    c, r r2
+    R1*3 %11
+    r2 d8 e a, f'
+    e2 a,4 r
+    R1
+    r4 \mvTr a'8\fE^\tutti a g!4 g8 g %15
+    f!4 f8 f fis?4. fis8
+    e4 e8 d cis4 cis8 cis
+    d4 d8 d h4. h8
+    c!4 c8 c' fis,4. fis8
+    g2 g,4 r\fermata \bar "||"
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  Mi -- se -- re -- %6
+  _ _ re no --
+  bis.
+
+  Mi -- se -- re -- re %12
+  no -- bis.
+
+  A -- gnus De -- i, qui %15
+  tol -- lis pec -- ca -- ta
+  mun -- di, qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di, pec -- ca -- ta
+  mun -- di: %20 finis
+}
+
+DonaBassoNotes = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoDona
+      \set Score.currentBarNumber = #21
+    R1*9 %29
+    \mvTr g'2\fE^\tutti g %30
+    a4. h8 c([ h)] c([ a)]
+    h[ a] g4. a8[ g f]
+    e[ d] c4 r2
+    R1
+    c2 c %35
+    d4. e8 f([ e f d]
+    e[ d]) c4 r8 a8[( h c]
+    \once \stemUp d4. c8) h h'[ a g]
+    fis[ d e fis] g[ h a g]
+    fis[ d e fis] g[ fis e d] %40
+    c4 d g, g'8[ f]
+    e4. d8 c[ c'16 h] a8[ g]
+    fis[ d e fis] g[ a h a]
+    g[ a g f] e[ d] c4
+    R1*2 %46
+    r2 g'
+    g a4. h8
+    c[( h c a] h[ a]) g4
+    r8 c[ h a] gis[ e fis gis] %50
+    a[ c16 h] a8[ g] fis[ d e fis]
+    g[ h16 a] g8[ fis] e[ c d e]
+    fis[ a16 g] fis8[ e] dis[ h cis dis]
+    e4 r r2
+    R1 %55
+    e2 e
+    fis4. g8 a[ g a fis]
+    g[ fis g a] h[ a h gis]
+    a4 a8([ g] f4. e8)
+    d4 r8 a'( gis[ e fis gis]) %60
+    a4 r r a8[ g]
+    f[ e d c] h[ g a h]
+    c4 r r2
+    r8 f([ d c] h[ g a h)]
+    c4 r r2 %65
+    R1
+    c2 c
+    d4. e8 f([ e f d]
+    e[ d]) c4 r8 g'[ a h]
+    c4. h8 a[ f g a] %70
+    h4. a8 gis?[ e fis? gis?]
+    a4. g8 fis?[ d e fis?]
+    g4 c, g' r
+    R1*2 %75
+    g4. g8 a4. h8
+    c([ h c a] h[ a)] g4
+    r8 c,[( d e]) f4 r
+    r8 d([ e f)] g4 r
+    r8 e([ f g)] a4 r %80
+    r8 f([ d c] h4) c
+    g' g, r2
+    r r8 f'[( d c]
+    h[ g a h]) c4 r8 c'(
+    h[ a g f] e[ d)] c c' %85
+    h[ a g f] e4 f
+    g8 g([ a h)] c4 r
+    r8 g[ a h] c[ e c h]
+    a[ c a g] f[ a f e]
+    d[ f d c] h4 c %90
+    g'( g,) c g'
+    c g c, r\fermata \bar "|." %92 FINIS
+  }
+}
+
+DonaBassoLyrics = \lyricmode {
+  Do -- na %30
+  no -- bis pa -- cem,
+  pa -- _ _
+  _ cem,
+
+  do -- na %35
+  no -- bis pa --
+  cem, pa --
+  cem, pa --
+  _ _
+  _ _ %40
+  _ _ cem, pa --
+  _ _ _ _
+  _ _
+  _ _ cem,
+
+  do -- %47
+  na no -- bis
+  pa -- cem,
+  pa -- _ %50
+  _ _ _
+  _ _ _
+  _ _ _
+  cem,
+  %55
+  do -- na
+  no -- bis pa --
+  _ _
+  cem, pa --
+  cem, pa -- %60
+  cem, pa --
+  _ _
+  cem,
+  pa --
+  cem, %65
+
+  do -- na
+  no -- bis pa --
+  cem, pa --
+  _ _ _ %70
+  _ _ _
+  _ _ _
+  _ _ cem,
+
+  do -- na no -- bis %76
+  pa -- cem,
+  pa -- cem,
+  pa -- cem,
+  pa -- cem, %80
+  pa -- cem,
+  pa -- cem,
+  pa --
+  cem, pa --
+  cem, pa -- %85
+  _ _ _
+  cem, pa -- cem,
+  pa -- _
+  _ _
+  _ _ cem, %90
+  pa -- cem, pa --
+  cem, pa -- cem. %92 FINIS
+}

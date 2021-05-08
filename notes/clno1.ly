@@ -287,3 +287,79 @@ BenedictusClarinoI = {
     c4 r r\fermata \bar "|." %31 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*17 %17
+    r2 d'4.\fE d8
+    d4 c r8 c16 c c8 c
+    \once \partCombineChords c4 r g8 g16 g g4\fermata \bar "||" %20
+  }
+}
+
+DonaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoDona
+      \set Score.currentBarNumber = #21
+    e'4\fE r e r %21
+    \pao d r f r
+    e r r2
+    d4 r e r
+    e r r2 %25
+    d4 r r g8 f
+    e4 r e r
+    \pao d r f r
+    e r r2
+    d4 r e r %30
+    e r r2
+    d4 r r d
+    e r e r
+    \pao d r f r
+    e r e r %35
+    \pao d r f r
+    e r r2
+    \pao d4 r r2
+    r d4 r
+    r2 \pao d4 g %40
+    g fis g r
+    R1*2
+    r2 e4 r
+    e r \pao d r %45
+    f r e r
+    r2 d4 r
+    e r e r
+    R1*14 %62
+    e4 r e r
+    \pao d r f r
+    e r e r %65
+    \pao d r f r
+    e r e r
+    \pao d r f r
+    e r g r
+    g r \once \tieDashed f2~ %70
+    f \once \tieDashed e~
+    e d
+    d4 e d d8. d16
+    e4 r r2
+    r e4^\critnote r %75
+    d r r2
+    e4 r r d
+    c c8. c16 c4 r
+    R1*2 %80
+    r2 f4 e
+    e d e r
+    e r \pao d r
+    f r e r
+    g1 %85
+    g2 g4 f8 e
+    d4 r r8 g f e
+    d4 r e r
+    e r r2
+    r f4 e %90
+    e d c d
+    e d c r\fermata \bar "|." %92 FINIS
+  }
+}

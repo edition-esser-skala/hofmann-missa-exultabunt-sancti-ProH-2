@@ -435,3 +435,108 @@ BenedictusViolinoII = {
     c,4 r r\fermata \bar "|." %50 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoAgnus
+    a8\fE c16. e32 a16. c32 h16. a 32 e'8 e, r4
+    a8 c16. e32 a16. c,32 h16. a32 f'16 a,\p a a gis gis gis gis
+    a a a a h gis a h a c8\f c16 a,8 gis
+    a4 r r2
+    R1 %5
+    r16. e'32\p gis16. h32 e16. gis32 fis16. e32 a8 a, r4
+    R1
+    c,8\f e16. g32 c16. e32 d16. c32 g'8 g, r d'
+    g,16 c8 e,16 c8 h c4 r
+    R1*3 %12
+    r2 a8\fE c16. e32 a16. c32 h16. a32
+    e'8 e, r h' e,16 a8 c,16 a8 gis
+    a4 r cis8 e16. g32 b16. g32 e16. cis32 %15
+    d8 d' r4 a8 c16. a32 a'16. c,32 h16. a32
+    e'8 e, r4 g!8 b16. e32 g16. b,32 a16. g32
+    fis8 d' r4 g,8 h16. c32 d16. a32 g16. f32
+    e8 c' r4 c,8 es16. g32 a16. es32 d16. c32
+    g8-\critnote c'16. es,32 d16. h'32 c,16. a'32 h,16. g'32 d16. h32 g4\fermata \bar "||" %20 finis
+  }
+}
+
+DonaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoDona
+      \set Score.currentBarNumber = #21
+    c'16\f c' c, c c c c c c c' c, c c c c c
+    d d' d, d d d e e f d' g,, g g g f' f
+    e c' e, e e e e e d c' d, d d d d d
+    d h' g, g g g g g g g' g, g g g g g
+    a a' a, a a a h h c a' d,, d d d c' c %25
+    h g' g, g g g g g g g' a, a g g h h
+    c c' c, c c c c c c c' c, c c c c c
+    d d' d, d d d e e f d' g,, g g g f' f
+    e c' e, e e e e e e c' e, e d d c' c
+    h g g, g g g g g g g' g, g g g g g %30
+    e e' e, e e e e' e d d' d, d d d c' c
+    h g g, g g g g g g g'^\critnote g, g g g d' d
+    e c' c, c c c c c c c' c, c c c c c
+    d d' d, d d d e e f d' g,, g g g f' f
+    e c' c, c c c c c c c' c, c c c c c %35
+    a a' a, a a a a' a g d g, g g g f' f
+    e c' c, c c c c c e c' e, e e e e e
+    d d' d, d d d d d d d' d, d d d d d
+    d d' d, d d d d d d d' d, d d d d d
+    d d' d, d d d d d d h' g, g g g g g %40
+    g g' g, g d8 fis' g,16 g' g, g g g g g
+    g g' g, g g g g g a a' a, a a a h h
+    c a' d,, d d d c' c h g' g, g g g g g
+    h g' g, g g g h h c c' c, c c c c c
+    c c' c, c c c c c d d' d, d d d e e %45
+    f d' g,, g g g f' f e c' e, e e e e e
+    e c' e, e d d c' c h g g, g g g g g
+    g g' g, g g g g g e e' e, e e e e' e
+    d d' d, d d d c' c h g g, g g g f'! f
+    e c' e, e e e e e d d' d, d d d f f e %50
+    c' e, e e e e e d c' d, d d d d d
+    d h' d, d d d d d c h' c, c c c c c
+    c a' c, c c c c c h a' h, h h h h h
+    h g' e, e e e e e e e' e, e e e e e
+    fis fis' fis, fis fis fis g g a fis' h,, h h h a' a %55
+    g e' e, e e e e e e e' g, g g g g g
+    a a' a, a a a h h c a' h, h c c a a
+    h g' a, a h h c c d h' c, c d d h h
+    c a' a, a a a a a a a' a, a a a a a
+    h h' h, h h h c c d h' e,, e e e d' d %60
+    c a' a, a a a h h c c' c, c c c c c
+    d d' d, d d d e e f d' g,, g g g f' f
+    e c' c, c c c c c c c' c, c c c c c
+    d d' d, d d d e e f d' g,, g g g f' f
+    e c' c, c c c c c c c' c, c c c c c %65
+    d d' d, d d d e e f d' g,, g g g f' f
+    e c' c, c c c c c c c' c, c c c c c
+    a a' a, a a a a' a g d g, g g g f' f
+    e c' c, c c c e e d g g, g g g f' f
+    e c' c, c c c c c f c' c, c c c e e %70
+    d h' h, h h h h h e h' h, h h h d d
+    c a' a, a a a a a c a' a, a a a c c
+    h g' g, g e' g g, g h g' g, g g g h h
+    c c' c, c c c c c d d' d, d d d e e
+    f d' e, e f f d d e c' c, c c c c c %75
+    h g' g, g g g h h c a' c, c c c d d
+    e c' d, d e e c c d h' c, c d d h h
+    c c' c, c c c c c c c' c, c c c c c
+    d d' d, d d d d d d d' d, d d d d d
+    e e' e, e e e e e e e' e, e e e e e %80
+    f a a, a f' f e e d d' d, d e c' e, e
+    e c' e, e d h' d, d c c' c, c c c c c
+    c c' c, c c c c c d d' d, d d d e e
+    f d' g,, g g g f' f e c' g g g g g g
+    g d' g, g g g g g g c g g g g g g %85
+    g d' g, g g g g g g c e, e d d c c
+    h g' h, h c c d d e c' e, e d d c c
+    h g' h, h c c d d e c' e, e e e e e
+    e c' e, e e e e e f a f f f f f f
+    f d' f, f f f f f f d' f, f e c' e, e %90
+    d c' d, d d h' d, d e c' e, e f d' f, f
+    e c' e, e d8 h' c,4 r\fermata \bar "|." %92 FINIS
+  }
+}

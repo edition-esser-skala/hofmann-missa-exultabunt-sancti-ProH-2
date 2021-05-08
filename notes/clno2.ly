@@ -287,3 +287,79 @@ BenedictusClarinoII = {
     e4 r r\fermata \bar "|." %50 finis
   }
 }
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*17 %17
+    r2 g'4.\fE g8
+    g2 r8 c,16 c c8 c
+    g4 r g8 g16 g g4\fermata \bar "||" %20 finis
+  }
+}
+
+DonaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoDona
+      \set Score.currentBarNumber = #21
+    c'4\fE r c r %21
+    d r d r
+    c r r2
+    g4 r g r
+    c r r2 %25
+    g4 r r g
+    g r c r
+    d r d r
+    c r r2
+    g4 r g r %30
+    c r r2
+    g4 r r g
+    g r c r
+    d r d r
+    c r c r %35
+    d r d r
+    c r r2
+    d4 r r2
+    r g,4 r
+    r2 d'4 e %40
+    e d d r
+    R1*2
+    r2 c4 r
+    c r d r %45
+    d r c r
+    r2 g4 r
+    g r c r
+    R1*14 %62
+    c4 r c r
+    d r d r
+    c r c r %65
+    d r d r
+    c r c r
+    d r d r
+    c r d r
+    e1 %70
+    d
+    c
+    g4 g g g8. g16
+    g4 r r2
+    r c4 r %75
+    g r r2
+    c4 r r g
+    g c,8. c16 c4 r
+    R1*2 %80
+    r2 d'4 c
+    c g c r
+    c r d r
+    d r c r
+    d2 e %85
+    d e4 d8 c
+    g4 r r8 e' d c
+    g4 r g r
+    c r r2
+    r d4 c %90
+    c g e g8. g16
+    g4 g e r\fermata \bar "|." %92 FINIS
+  }
+}
