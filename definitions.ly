@@ -461,7 +461,7 @@ bc =
   \context {
     \Score
     \compressEmptyMeasures
-    \override BarNumber.break-visibility = #'#(#f #t #t)
+    % \override BarNumber.break-visibility = #'#(#f #t #t)
   }
   \context {
     \StaffGroup
@@ -668,7 +668,6 @@ tocLabelLong = #(define-music-function
     )
   )
 )
-
 
 
 tempoKyrie = \tempoMarkup "Allegro"
