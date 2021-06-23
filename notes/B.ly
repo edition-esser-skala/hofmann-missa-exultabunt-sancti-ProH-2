@@ -163,19 +163,19 @@ GloriaBassoNotes = {
     r8 c, c'4. b16 a b8 a16([ g)]
     a4 r8 f( g) a f([ g)]
     c,4 r r2
-    r r8 \mvTr c'\fE^\tuttiE c c %80
-    g8. g16 g8 g c4 c8 a
-    fis4. fis8 g g g e
-    c a d4 g, r8 g'
-    c,4 r8 c' f,4 r8 f
+    r r8 \mvTr c \fE^\tuttiE e c %80
+    g'8. g,16 g8 g' c,4 c'8 a
+    fis4 fis g8 h g g
+    c, a d4 g, r8 g'
+    c,4 r8 c f4 r8 f
     h,4 r8 h' e,4 r8 e( %85
     a,) a' e4 a, r8 a'
     d,4 r8 d g4 r8 g(
-    c,) c c4 g' r8 g
+    c) c, c([ e16 c)] g'4 r8 g
     c,4 r8 c' a4 r8 a(
     f) d g4 c, r %90
     r2 r4 r8 g'
-    c4 r8 g c,4 r\fermata \bar "|." %92 finis
+    c,4 r8 g c4 r\fermata \bar "|." %92 finis
   }
 }
 
@@ -257,14 +257,104 @@ CredoBassoNotes = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoCredo
-    s2.*61 \bar "||" %61 finis
+    \mvTr c'4\fE^\tutti c, r
+    c' c,8 c' h g
+    a4 a,8 a' g e
+    f e d4( g)
+    c, r8 c e g %5
+    c4 c,8 c e c
+    g'4 g,8 g' g g
+    a4 a,8 a' fis d
+    g4( d2)
+    g,4 g' d %10
+    g4. g8 g4
+    gis4. gis8 gis4
+    a4. a8 a a,
+    d8. d16 d4 r
+    g4. g8 g4 %15
+    c g4. g8
+    c,4 r r
+    R2.*8 %25
+    r4 \mvTr e\pE^\solo e
+    a( a,) a'
+    gis8.([ fis16)] e4 h'~
+    h8 a gis?([ f)] e d
+    c8. h16 a4 r %30
+    R2.
+    r4 r8 e'' c a
+    f4 d8 d' h g
+    e8. e16 c4 c'8 h
+    a([ c16 h] a8[ g)] f e %35
+    f([ a16 g] f8[ e d c]
+    h) c g2
+    c4 r r
+    R2.*8 %46
+    r4 r \mvTr g'\fE^\tutti
+    g g, g'
+    c4. c,8 c4
+    c'8([ h)] a([ g)] f([ e)] %50
+    d4 d r
+    g g, g'
+    e c g'
+    c8.([ h16] c8[ g e c]
+    g'4) g, r %55
+    c' g2
+    c,4 r r
+    R2.
+    r4 r g'
+    c c,8 c' g4 %60
+    c, r r\fermata \bar "||" %61 finis
   }
 }
 
 CredoBassoLyrics = \lyricmode {
-  % Et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
-  % De -- um de De -- o, lu -- men de lu -- mi -- ne,
-  % De -- um ve -- rum de De -- o ve -- ro,
+  Cre -- do,
+  cre -- do in u -- num
+  De -- um, Pa -- trem o --
+  mni -- po -- ten --
+  tem, fa -- cto -- rem %5
+  coe -- li, coe -- li et
+  ter -- rae, fa -- cto -- rem
+  coe -- li, coe -- li et
+  ter --
+  rae, vi -- si -- %10
+  bi -- li -- um
+  o -- mni -- um
+  et in -- vi -- si --
+  bi -- li -- um,
+  et in -- vi -- %15
+  si -- bi -- li --
+  um.
+
+  Et ex %26
+  Pa -- tre
+  na -- tum an --
+  te o -- mni -- a
+  sae -- cu -- la. %30
+
+  De -- um de
+  De -- o, lu -- men de
+  lu -- mi -- ne, De -- um
+  ve -- rum de %35
+  De --
+  o ve --
+  ro.
+
+  Qui %47
+  pro -- pter nos
+  ho -- mi -- nes
+  et pro -- pter %50
+  no -- stram,
+  no -- stram sa --
+  lu -- tem de --
+  scen --
+  dit %55
+  de coe --
+  lis,
+
+  de --
+  scen -- dit de coe -- %60
+  lis. %61 finis
 }
 
 EtIncarnatusBassoNotes = {
@@ -272,7 +362,8 @@ EtIncarnatusBassoNotes = {
     \clef bass
     \key c \dorian \time 4/4 \autoBeamOff \tempoEtIncarnatus
       \set Score.currentBarNumber = #62
-    s1*17 %78
+    R1*16 %77
+    r2 \mvTr c'4.\pE^\solo c,8
     g'4 g, d''8. h16 g8 d
     es c r c'des8. e,16 e8 e %80
     f f, r c'' es!8. fis,16 fis8 fis
@@ -286,8 +377,8 @@ EtIncarnatusBassoNotes = {
 }
 
 EtIncarnatusBassoLyrics = \lyricmode {
-  % Cru -- ci --
-  fi -- xus e -- ti -- am pro %79
+  Cru -- ci -- %78
+  fi -- xus e -- ti -- am pro
   no -- bis sub Pon -- ti -- o Pi -- %80
   la -- to, sub Pon -- ti -- o Pi --
   la -- to, pas -- _
