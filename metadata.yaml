@@ -1,0 +1,17 @@
+composer: Hofmann, Leopold
+title: Missa solemnis “Exultabunt Sancti in Gloria”
+id: ProH 2
+genre: mass
+scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+sources:
+  1:
+    siglum: A-Ed
+    shelfmark: A 102
+    type: manuscript copy
+    date: unknown
+    rism: 600037900
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/556.html
+github: hofmann-missa-exultabunt-sancti-ProH-2
+imslp: Missa_Exultabunt_Sancti_in_Gloria_(Hofmann,_Leopold)
+notes:
+
