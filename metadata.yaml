@@ -4,14 +4,13 @@ id: ProH 2
 genre: mass
 scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: A 102
-    type: manuscript copy
-    date: unknown
     rism: 600037900
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/556.html
-github: hofmann-missa-exultabunt-sancti-ProH-2
+    principal: true
+    notes: two pages missing between Basso-2.jpg and Basso-3.jpg in digital version; Basso-4.jpg is a duplicate of Basso-3.jpg
 imslp: Missa_Exultabunt_Sancti_in_Gloria_(Hofmann,_Leopold)
-notes: two pages missing between Basso-2.jpg and Basso-3.jpg in digital version at A-Ed; Basso-4.jpg is a duplicate of Basso-3.jpg
-
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G

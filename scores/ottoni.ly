@@ -1,75 +1,14 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  last-bottom-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . 0)
-       (stretchability . 1.0e7))
-
-  systems-per-page = #4
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \GrandStaff
-    instrumentName = "clno"
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-
-  }
-  \context {
-    \Staff
-    instrumentName = "timp"
-  }
-}
-
+#(define option-instrument-name-upper "clno")
+#(define option-instrument-name-lower "timp")
+\include "score_settings/three-staves.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "K Y R I E"
-    }
+    \section "1" "Kyrie"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
@@ -94,10 +33,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "G L O R I A"
-    }
+    \section "2" "Gloria"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -117,10 +54,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "C R E D O"
-    }
+    \section "3" "Credo"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -140,9 +75,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "E T   R E S U R R E X I T"
-    }
+    \subsection "Et incarnatus est"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -162,10 +96,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "S A N C T U S"
-    }
+    \subsection "Et resurrexit"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -185,10 +117,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "B E N E D I C T U S"
-    }
+    \section "5" "Benedictus"
+    \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
@@ -209,10 +139,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "6"
-      title = "A G N U S   D E I"
-    }
+    \section "6" "Agnus Dei"
+    \addTocEntry
     \paper {
       systems-per-page = #1
       ragged-last = ##f
@@ -236,9 +164,8 @@
     }
   }
   \bookpart {
-    \header {
-      subtitle = "D O N A   N O B I S   P A C E M"
-    }
+    \subsection "Dona nobis pacem"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
