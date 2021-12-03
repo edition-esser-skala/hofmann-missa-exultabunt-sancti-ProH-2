@@ -1,14 +1,19 @@
-composer: Hofmann, Leopold
-title: Missa solemnis “Exultabunt Sancti in Gloria”
+composer:
+  last: Hofmann
+  first: Leopold
+title: Missa solemnis
+subtitle: Exultabunt Sancti in Gloria
 id: ProH 2
 genre: mass
 scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: A 102
     rism: 600037900
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/556.html
+    license: public domain
     principal: true
     notes: two pages missing between Basso-2.jpg and Basso-3.jpg in digital version; Basso-4.jpg is a duplicate of Basso-3.jpg
 imslp: Missa_Exultabunt_Sancti_in_Gloria_(Hofmann,_Leopold)
